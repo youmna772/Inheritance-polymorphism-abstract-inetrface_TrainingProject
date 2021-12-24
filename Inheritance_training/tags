@@ -1,0 +1,12 @@
+_ACCOUNT_H_	C:\Users\Eng-Ayman\Documents\Documents\Inheritance_training\Account.hpp	/^#define _ACCOUNT_H_$/;"	macro	line:2
+Account	C:\Users\Eng-Ayman\Documents\Documents\Inheritance_training\Account.hpp	/^class Account $/;"	class	line:6
+operator <<	C:\Users\Eng-Ayman\Documents\Documents\Inheritance_training\Account.hpp	/^ friend std::ostream &operator<<(std::ostream &os ,const Account &account);$/;"	prototype	line:8	class:Account	access:friend	signature:(std::ostream &os ,const Account &account)	returns:friend std :: ostream 
+def_name	C:\Users\Eng-Ayman\Documents\Documents\Inheritance_training\Account.hpp	/^static constexpr char*def_name = "UnNamed Account";$/;"	member	line:11	class:Account	access:private
+def_balance	C:\Users\Eng-Ayman\Documents\Documents\Inheritance_training\Account.hpp	/^static constexpr double def_balance = 0.0 ;$/;"	member	line:12	class:Account	access:private
+name	C:\Users\Eng-Ayman\Documents\Documents\Inheritance_training\Account.hpp	/^std::string name ;$/;"	member	line:15	class:Account	access:protected
+balance	C:\Users\Eng-Ayman\Documents\Documents\Inheritance_training\Account.hpp	/^double balance ;$/;"	member	line:16	class:Account	access:protected
+deposit	C:\Users\Eng-Ayman\Documents\Documents\Inheritance_training\Account.hpp	/^bool deposit(double amount) ;$/;"	prototype	line:19	class:Account	access:public	signature:(double amount)	returns:bool 
+withdraw	C:\Users\Eng-Ayman\Documents\Documents\Inheritance_training\Account.hpp	/^bool withdraw (double amount) ;$/;"	prototype	line:20	class:Account	access:public	signature:(double amount)	returns:bool 
+get_balance	C:\Users\Eng-Ayman\Documents\Documents\Inheritance_training\Account.hpp	/^double get_balance()  ;$/;"	prototype	line:21	class:Account	access:public	signature:()	returns:double 
+Account	C:\Users\Eng-Ayman\Documents\Documents\Inheritance_training\Account.hpp	/^    Account(std::string name =def_name ,double balance =def_balance );$/;"	prototype	line:22	class:Account	access:public	signature:(std::string name =def_name ,double balance =def_balance )
+~Account	C:\Users\Eng-Ayman\Documents\Documents\Inheritance_training\Account.hpp	/^    ~Account();$/;"	prototype	line:24	class:Account	access:public	signature:()
